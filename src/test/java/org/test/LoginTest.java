@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 public class LoginTest {
     @Test
-    public static void main(String [] args) throws InterruptedException{
+    public void testLogin() throws InterruptedException{
         WebDriver driver=new ChromeDriver();
         driver.get("http://saucedemo.com/v1");
         driver.manage().window().maximize();
